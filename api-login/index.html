@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jquery.js"></script>
+  <title>login</title>
+</head>
+<body>
+  <p id="message"></p>
+  <input type="text" id="email-input" name="email" placeholder="email" value="anh.pham@skymapglobal.com">
+  <br>
+  <input type="password" id="password-input" name="password" placeholder="password" value="12345678">
+  <br>
+  <button id="btn-login">Dang nhap</button>
+  <button id="huongkoi">Huongkoi</button>
+
+  <table id="data-table" border="1"></table>
+
+
+  <div class="chuc-vu" style="display:none;">
+    <hr>
+    <div class="add-position">
+      <span>Them chuc vu: </span>
+      <label for="ma">
+        Ma
+        <input type="text" id="ma">
+      </label>
+      <label for="chuc-vu">
+        Chuc vu
+        <input type="text" id="chuc-vu">
+      </label>
+      <label for="thong-tin">
+        Thong tin
+        <input type="text" id="thong-tin">
+      </label>
+      <button id="btn-add">Them</button>
+    </div>
+    <br>
+    <div class="edit-position" style="display:none;">
+      <span>Sua chuc vu: </span>
+      <label for="ma">
+        Ma
+        <input type="text" id="ma-edit">
+      </label>
+      <label for="chuc-vu">
+        Chuc vu
+        <input type="text" id="chuc-vu-edit">
+      </label>
+      <label for="thong-tin">
+        Thong tin
+        <input type="text" id="thong-tin-edit">
+      </label>
+      <button id="btn-update">Cap nhat</button>
+    </div>
+    <br>
+    <table class="table-position" border="1"></table>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
